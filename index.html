@@ -12,27 +12,38 @@
 		header{
 			width: 100%;
 			background-image: url(img/bg.jpeg);
-			height: 400px;
+			height: 430px;
 			background-position: 0 50%;
 		}
 		nav{
 			height: 50px;
-			width: 80%;
-			padding: 15px 20% 0px 20%;
+			width: 100%;
+			padding: 15px 0% 0px 0%;
+		}
+		#divlogohd{
+			float: left;
+			height: 100%;
+			width: 65%;
+		}
+		#divlinks{
+			float: left;
+			height: 100%;
+			width: 35%;
 		}
 		#logohd{
 			height: 100%;
 			float: left;
-		}
-		ul{
-			float: left;
-			margin-left: 40%
+			padding-left: 20%;
 		}
 		.linksnav{
+			float: left;
 			list-style: none;
-			display: inline-block;
-			margin-left: 15px;
+			margin-left: 10px;
 			box-sizing: border-box;
+		}
+		ul li {
+			float: left;
+
 		}
 		a{
 			color: gray;
@@ -40,32 +51,116 @@
 		}
 		h1{
 			color: white;
+			font-weight: lighter;
+			font-size: 
 		}
 		#titular{
 			text-align: center;
 			width: 100%;
 			margin-top: 3%;
 		}
+		#botonazul{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2C40F8;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-left: 35%
+		}
+		#botonverde{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2EF54B;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-right: 35%;
+		}
+		#justify{
+			text-align: justify;
+			color: white;
+			width: 50%;
+			margin-top: 6%;
+			margin-left: 25%;
+		}
+		section{
+			text-align: center;
+			width: 50%;
+			margin-top: 0%;
+			margin-left: 25%;
+		}
+		h2{
+			font-size: 18px;
+		}
+		#happypeople{
+			width: 60%;
+		}
+		#section2{
+			padding: 8%;
+			border-bottom: solid 1px black;
+			border-top: solid 1px black;
+			width: 200%;
+			box-sizing: border-box;
+			margin-left: -50%;
+		}
+		#textosection2{
+			margin-left: 25%;
+			width: 50%;
+		}
+		#botonazul2{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2C40F8;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-left: 42%;
+		}
 	</style>
 </head>
 <body>
 	<header>
 		<nav>
-			<img id="logohd" src="img/latam_logo.png" alt="">
-			<ul>
-				<li class="linksnav"><a href="">Equipo</a></li>
-				<li class="linksnav"><a href="">Blog</a></li>
-				<li class="linksnav"><a href="">Contacto</a></li>
-			</ul>
+			<div id="divlogohd">
+				<img id="logohd" src="img/latam_logo.png" alt="Latam Logo">
+			</div>
+			<div id="divlinks">
+				<ul>
+					<li class="linksnav"><a href="">Equipo</a></li>
+					<li class="linksnav"><a href="">Blog</a></li>
+					<li class="linksnav"><a href="">Contacto</a></li>
+				</ul>
+			</div>
 		</nav>
 		<div id="titular">
 			<h1>COMIENZA UNA NUEVA VIDA Y</h1>
 			<h1>UNETE AL MUNDO</h1>
 			<h1>TECNOLÓGICO</h1>
+			<a id="botonazul" href="">Comienza acá!</a>
+			<a id="botonverde" href="">Más info</a></div>
+			<div id="justify">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In possimus, assumenda nulla nostrum laudantium nisi! Architecto recusandae est praesentium unde facere!</p>
+			</div>
 		</div>
-
 	</header>
 	<section>
+		<h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMERICA</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ducimus eaque nam modi atque tempora ipsam, est veritatis, non minima, accusamus.</p>
+		<img id="happypeople" src="img/happypeople.png" alt="happy people">
+		<div id="section2">
+			<h2>SOLICITA INFORMACIÓN E INSCRIBETE</h2>
+			<p id="textosection2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta id fugit libero repellendus autem illum aliquam quisquam cupiditate molestiae assumenda.</p>
+			<a href="" id="botonazul2">Inscribete!</a>
+		</div>
+		<div id="contacto"></div>
+		<div id="suscribete"></div>
 	</section>
 	<footer></footer>
 </body>
