@@ -1,0 +1,171 @@
+		body{
+			font-family: sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+		header{
+			width: 100%;
+			background-image: url(img/bg.jpeg);
+			height: 430px;
+			background-position: 0 50%;
+		}
+		nav{
+			height: 50px;
+			width: 100%;
+			padding: 15px 0% 0px 0%;
+		}
+		#divlogohd{
+			float: left;
+			height: 100%;
+			width: 65%;
+		}
+		#divlinks{
+			float: left;
+			height: 100%;
+			width: 35%;
+		}
+		#logohd{
+			height: 100%;
+			float: left;
+			padding-left: 20%;
+		}
+		.linksnav{
+			float: left;
+			list-style: none;
+			margin-left: 10px;
+			box-sizing: border-box;
+		}
+		ul li {
+			float: left;
+
+		}
+		a{
+			color: gray;
+			text-decoration: none;
+		}
+		h1{
+			color: white;
+			font-weight: lighter;
+			font-size: 
+		}
+		#titular{
+			text-align: center;
+			width: 100%;
+			margin-top: 3%;
+		}
+		#botonazul{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2C40F8;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-left: 34.5%;
+			margin-right: .5%;
+		}
+		#botonverde{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2EF54B;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-right: 34.5%;
+			margin-left: .5%;
+		}
+		#justify{
+			text-align: justify;
+			color: white;
+			width: 50%;
+			margin-top: 6%;
+			margin-left: 25%;
+		}
+		section{
+			text-align: center;
+			width: 50%;
+			margin-top: 0%;
+			margin-left: 25%;
+		}
+		h2{
+			font-size: 18px;
+		}
+		#section2{
+			padding: 8%;
+			border-bottom: solid 1px black;
+			border-top: solid 1px black;
+			width: 200%;
+			box-sizing: border-box;
+			margin-left: -50%;
+			padding-bottom: 15%;
+		}
+		#textosection2{
+			margin-left: 25%;
+			width: 50%;
+		}
+		#botonazul2{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: #2C40F8;
+			color: white;
+			border-radius: 8px;
+			box-sizing: border-box;
+			margin-left: 42%;
+		}
+		#contacto{
+			width: 40%;
+			float: left;
+			height: auto;
+			box-sizing: border-box;
+			margin-left: 0%;
+			text-align: left;
+			font-size: 14px;
+		}
+		#suscribete{
+			width: 60%;
+			float: left;
+			height: auto;
+			box-sizing: border-box;
+			margin-left: 0%;
+			text-align: left;
+			font-size: 14px;
+		}
+		#buscador{
+			float: left;
+			border:solid 1px #91918F;
+			padding-left: 10px;
+			box-sizing: border-box;
+			color: #91918F;
+			width: 40%;
+			margin-right: 5px;
+		}
+		#enviar{
+			width: 15%;
+			float: left;
+			height: auto;
+			padding: 10px;
+			background-color: white;
+			color: black;
+			border-radius: 8px;
+			box-sizing: border-box;
+			border: solid 1px;
+		}
+		footer{
+			float: left;
+			width: 100%;
+			height: auto;
+			background-color: #3B3B3A;
+			padding-left: 15%;
+			box-sizing: border-box;
+			margin-top: 15px;
+		}
+		h3{
+			color: white;
+			font-weight: lighter;
+			font-size: 14px;
+		}
